@@ -1,0 +1,211 @@
+.basic-content
+{
+    max-width: 960px;
+    margin: 0 auto;   
+}
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header___________________*/
+header{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    border-bottom: 1px solid #cccccc;
+    overflow: auto;
+    font-size: 0px;
+}
+
+header a {
+    padding: 0 15px;
+    font-size: 16px;
+    color: #777777;
+    text-decoration: none;
+}
+
+.right-align {
+    float: right;
+    padding: 36px 0;
+}
+
+.header-1 {
+    float: left;
+    background-color: #4aaaa5;
+    padding: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -0px;
+}
+
+.center-text {
+    border-right: 1px solid #777777;
+    border-left: 1px solid #777777;
+}
+
+.right-text {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+a:visited { 
+    color: #777777;
+}
+
+a:hover {
+    color: #4aaaa5;
+}
+
+main{
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png);
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png);
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 40px;
+    padding-bottom: 110px;
+    overflow: auto;
+
+}
+
+/* AboutMe_______________*/
+
+.about {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.myimage {
+    float: left;
+    max-width: 25%; 
+    height: auto;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-content {
+    background-color: white;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding-bottom: 25px;
+}
+
+.p1 {
+    font-size: 20px;
+    color: #777777;
+    line-height: 35px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.p2 {
+    font-size: 20px;
+    color: #777777;
+    line-height: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+/* Footer___________________*/
+footer {
+    text-align: center;
+    background-color: #666666;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    font-size: 12px;
+    color: #b0acb0;
+    border-top: 8px solid #4aaaa5;
+}
+
+maincontent{
+    background-color: white;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding-bottom: 40px; 
+}
+
+
+/* Contact Page_________________*/
+
+input[type=submit] {
+    height: 40px;
+    width: 115px;
+    font-size: 16px;
+    background-color:  #4aaaa5;
+    color: white;
+    padding: 12px 20px 30px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+input[type=submit]:hover {
+    background-color: #357b77;
+}
+
+.contact {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4aaaa5;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #e1e1e1;
+}
+
+.input {
+    width: 99%;
+    height: 36px;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #e1e1e1;
+}
+
+.input:focus {
+    outline-color: #d4eceb;
+}
+
+.content-form {
+    font-size: 20px;
+    color: #777777;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.message {
+    height: 200px; 
+}
+
+.center-text {
+    border-right: 1px solid #777777;
+    border-left: 1px solid #777777;
+}
+
+.right-text {
+    padding-right: 0;
+    padding-left: 15px;
+}
+
+/* Portfolio Page_________________*/
