@@ -9,7 +9,7 @@ body{
     padding: 0%;
 }
 
-/* HeaderBody_____________________________________________________*/
+/* HeaderBody Section_____________________________________________________*/
 header{
     background-color: #ffffff;
     border-color: #cccccc;
@@ -23,6 +23,7 @@ header a {
     padding: 0 15px;
     font-size: 16px;
     color: #777777;
+    text-decoration: none;
 }
 
 .header-1 {
@@ -67,7 +68,7 @@ main{
 
 }
 
-/* AboutMe_______________________________________________________*/
+/* AboutMe Page_______________________________________________________*/
 
 .about {
     font-size: 28px;
@@ -116,7 +117,7 @@ main{
 }
 
 
-/* Footer_____________________________________________________________*/
+/* Footer Section_____________________________________________________________*/
 footer {
     text-align: center;
     background-color: #666666;
@@ -134,7 +135,7 @@ maincontent{
     padding-bottom: 40px; 
 }
 
-/* Portfolio_____________________________________________*/
+/* Portfolio Page_____________________________________________*/
 .content-portfolio {
     background-color: white;
     border: 1px solid #cccccc;
@@ -198,7 +199,7 @@ span {
 }
 
 
-/* Contact___________________________________________________*/
+/* Contact Page___________________________________________________*/
 
 input[type=submit] {
     height: 50px;
