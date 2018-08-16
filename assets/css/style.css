@@ -9,12 +9,12 @@ body{
     padding: 0%;
 }
 
-/* Header___________________*/
+/* HeaderBody_____________________________________________________*/
 header{
     background-color: #ffffff;
     border-color: #cccccc;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     border-bottom: 1px solid #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     overflow: auto;
     font-size: 0px;
 }
@@ -23,22 +23,21 @@ header a {
     padding: 0 15px;
     font-size: 16px;
     color: #777777;
-    text-decoration: none;
-}
-
-.right-align {
-    float: right;
-    padding: 36px 0;
 }
 
 .header-1 {
     float: left;
     background-color: #4aaaa5;
-    padding: 30px;
     color: white;
+    padding: 30px;
     font-size: 24px;
     font-weight: bold;
     margin-bottom: -0px;
+}
+
+.right-align {
+    float: right;
+    padding: 36px 0;
 }
 
 .center-text {
@@ -60,41 +59,33 @@ a:hover {
 }
 
 main{
-    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png);
-    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/fresh_snow.png);
-    background-position-x: initial;
-    background-position-y: initial;
-    background-size: initial;
-    background-repeat-x: initial;
-    background-repeat-y: initial;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
+    background: url(https://www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/patterns/symphony.png);
     padding-top: 40px;
     padding-bottom: 110px;
     overflow: auto;
 
 }
 
-/* AboutMe_______________*/
+/* AboutMe_______________________________________________________*/
 
 .about {
     font-size: 28px;
     font-weight: bold;
     color: #4aaaa5;
+    border-bottom: 3px solid #e1e1e1;
     margin-bottom: 20px;
     margin-left: 30px;
     margin-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-    border-bottom: 3px solid #e1e1e1;
+    
 }
 
 .myimage {
     float: left;
-    max-width: 25%; 
     height: auto;
+    max-width: 25%; 
     padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
@@ -125,7 +116,7 @@ main{
 }
 
 
-/* Footer___________________*/
+/* Footer_____________________________________________________________*/
 footer {
     text-align: center;
     background-color: #666666;
@@ -143,17 +134,79 @@ maincontent{
     padding-bottom: 40px; 
 }
 
+/* Portfolio_____________________________________________*/
+.content-portfolio {
+    background-color: white;
+    border: 1px solid #cccccc;
+    overflow: auto;
+    padding-bottom: 10px;
+}
 
-/* Contact Page_________________*/
+.portfolio {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4aaaa5;
+    border-bottom: 3px solid #e1e1e1;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.img-port {
+    height: 100%; 
+    width: 100%; 
+    display: block;
+}
+
+.row {
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.col-1 {
+    width: 33.3%;
+    height: 200px;
+    float: left;
+    margin-bottom: 55px;
+    padding-right: 25px;
+}
+
+.col-2 {
+    width: 33.3%;
+    height: 200px;
+    float: left;
+    margin-bottom: 60px;
+}
+
+.mid {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+span {
+    position: relative;
+    height: 60px;
+    top: -70px;
+    font-size: 24px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #4aaaa5;
+    display: block;
+}
+
+
+/* Contact___________________________________________________*/
 
 input[type=submit] {
-    height: 40px;
-    width: 115px;
+    height: 50px;
+    width: 125px;
     font-size: 16px;
     background-color:  #4aaaa5;
     color: white;
     padding: 12px 20px 30px 20px;
-    border: none;
     cursor: pointer;
     
 }
@@ -208,4 +261,3 @@ input[type=submit]:hover {
     padding-left: 15px;
 }
 
-/* Portfolio Page_________________*/
